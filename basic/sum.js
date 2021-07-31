@@ -1,10 +1,12 @@
 console.log("test");
 
-let totalresult=0;
+
 function sum(n){
+    let totalresult=0;
     for(i=0;i<=n;i++){
         totalresult=i+totalresult;
     }
     return totalresult;
 };
+console.log(sum(1));
 console.log(sum(10));
