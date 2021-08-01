@@ -3,7 +3,7 @@ console.log("test");
 
 function sum(n){
     let totalresult=0;
-    for(i=0;i<=n;i++){
+    for(let i=0;i<=n;i++){
         totalresult=i+totalresult;
     }
     return totalresult;
