@@ -40,6 +40,7 @@ job1
   })
   .then((result) => {
     console.log(result);
+    return doWork("看電視", 3000, false);
   })
   .catch((error) => {
     // 捕捉錯誤
