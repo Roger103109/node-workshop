@@ -4,6 +4,6 @@
 
 * 1.請先建立設定檔
 
-` cp .env.example .env
+cp .env.example .env
 
-修改裡面設定 `
+## 修改裡面設定 
