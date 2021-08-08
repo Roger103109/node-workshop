@@ -10,7 +10,7 @@ new Promise((resolve, reject) => {
     }
   });
 }).then((data) => {
-  return axios
+  axios
     .get("https://www.twse.com.tw/exchangeReport/STOCK_DAY", {
       params: {
         response: "json",
