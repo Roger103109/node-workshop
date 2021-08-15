@@ -3,15 +3,15 @@ let b ="土狗";
 let c ="哈士奇";
 
 function dog1(name){
-    a = name;
+    return a = name;
 }
 
 function dog2(name){
-    b = name;
+    return b = name;
 }
 
 function dog3(name){
-    c = name;
+    return c = name;    
 }
 
 module.exports ={
